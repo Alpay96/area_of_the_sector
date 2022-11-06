@@ -14,7 +14,7 @@ public class Main {
 		int a = scan.nextInt();
 
 		double pi = 3.14;
-		double area = pi * r * r * (a / 360d);
+		double area = pi * r * r * (a/360);
 		System.out.println("Area: " + area);
 	}
 }
